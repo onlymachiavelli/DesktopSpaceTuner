@@ -1,0 +1,14 @@
+{
+  "name": "machtuner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alaa",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.0"
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.css" />
+  </head>
+  <body>
+    <!--StartUp Page-->
+
+    <div class="main-body">
+      <div class="main-header">
+        <button class="close-window" onclick="window.top.close();">
+          <i class="fa fa-circle" aria-hidden="true"></i>
+        </button>
+        <div style="margin-top: 10px"><b id="window-title">MachTuner</b></div>
+      </div>
+
+      <!--Lib-->
+      <div class="lib">
+        <div class="menu">
+          <div class="m-menu">
+            <a class="tune" href="#"><b>Tune You Guitar</b></a>
+            <br /><br /><br /><br />
+            <button class="menu-link" onclick="c()">C</button>
+            <button class="menu-link" onclick="cs()">C#</button>
+            <button class="menu-link" onclick="d">D</button>
+            <br />
+            <button class="menu-link" onclick="ds()">D#</button>
+            <button class="menu-link" onclick="e()">E</button>
+            <button class="menu-link" onclick="f()">F</button>
+            <br />
+            <button class="menu-link" onclick="fs()">F#</button>
+            <button class="menu-link" onclick="g()">G</button>
+            <button class="menu-link" onclick="gs()">G#</button>
+            <br />
+            <button class="menu-link" onclick="a()">A</button>
+            <button class="menu-link" onclick="as()">A#</button>
+            <button class="menu-link" onclick="b()">B</button>
+          </div>
+        </div>
+        <div class="lib-container">
+          <!--Empty Block-->
+          <div class="empty">
+            <img src="../img/empty.png" />
+          </div>
+          <!--photos-->
+          <div class="cp">
+            <nav class="navbar">
+              <ul>
+                <li><a href="#">MAJOR</a></li>
+                <li><a href="#">MINOR</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">MAJ7</a></li>
+                <li><a href="#">M7</a></li>
+                <li><a href="#">SUS4</a></li>
+                <li><a href="#">ADD9</a></li>
+                <li><a href="#">SUS2</a></li>
+                <li><a href="#">7SUS4</a></li>
+                <li><a href="#">7SHARP9</a></li>
+                <li><a href="#">9</a></li>
+              </ul>
+            </nav>
+            <div class="imgslides">
+              <!--First IMG-->
+              <br /><br /><br /><br /><br />
+              <img alt="" id="chordimg1" />
+            </div>
+          </div>
+          <div class="tuning-block">
+            <div class="left-tunning-btns">
+              <button class="low-e tb">E</button>
+              <br />
+              <button class="a tb">A</button>
+              <br />
+              <button class="d tb">D</button>
+            </div>
+            <img src="../img/head.png" / >
+            <div class="right-tunning-btns">
+              <button class="g tb">G</button>
+              <br />
+              <button class="b tb">B</button>
+              <br />
+              <button class="e tb">E</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../jquery.js"></script>
+    <script src="function.js"></script>
+  </body>
+</html>
